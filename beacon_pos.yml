@@ -1,0 +1,8 @@
+/infraloc:
+  ros__parameters:
+    chan_1_x: 0.0
+    chan_1_y: 0.0
+    chan_2_x: 1.0
+    chan_2_y: 2.0
+    chan_3_x: 2.0
+    chan_3_y: 0.0

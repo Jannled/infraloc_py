@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "beacon_strength = infraloc_py.BeaconStrength:main"
+            "beacon_strength = infraloc_py.BeaconStrength:main",
+            "infra_readings = infraloc_py.InfraReadings:main"
         ],
     },
 )
