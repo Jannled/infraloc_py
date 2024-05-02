@@ -21,7 +21,8 @@ setup(
     entry_points={
         'console_scripts': [
             "beacon_strength = infraloc_py.BeaconStrength:main",
-            "infra_readings = infraloc_py.InfraReadings:main"
+            "infra_readings = infraloc_py.InfraReadings:main",
+            "beacon_marker = infraloc_py.BeaconMarker:main"
         ],
     },
 )
