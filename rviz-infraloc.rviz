@@ -6,6 +6,8 @@ Panels:
       Expanded:
         - /Global Options1
         - /Status1
+        - /Grid1
+        - /Subgrid1
         - /Pose1
         - /Pose1/Status1
       Splitter Ratio: 0.5421052575111389
@@ -46,7 +48,7 @@ Visualization Manager:
         Y: 0
         Z: 0
       Plane: XY
-      Plane Cell Count: 10
+      Plane Cell Count: 40
       Reference Frame: <Fixed Frame>
       Value: true
     - Alpha: 0.20000000298023224
@@ -64,7 +66,7 @@ Visualization Manager:
         Y: 0
         Z: 0
       Plane: XY
-      Plane Cell Count: 100
+      Plane Cell Count: 400
       Reference Frame: <Fixed Frame>
       Value: true
     - Alpha: 1
@@ -145,25 +147,25 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz_default_plugins/Orbit
-      Distance: 0.9611696004867554
+      Distance: 3.5006446838378906
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
         Swap Stereo Eyes: false
         Value: false
       Focal Point:
-        X: 0.184241384267807
-        Y: 0.22649705410003662
-        Z: -0.05698372423648834
+        X: 1.0821901559829712
+        Y: 0.8152589201927185
+        Z: -0.10281947255134583
       Focal Shape Fixed Size: false
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 1.3597962856292725
+      Pitch: 1.2047966718673706
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 4.728541851043701
+      Yaw: 3.138523578643799
     Saved: ~
 Window Geometry:
   Displays:
