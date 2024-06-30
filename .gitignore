@@ -1,3 +1,8 @@
+# Don't track OS specific files
+.DS_Store
+Thumbs.db
+._*
+
 # Prerequisites
 *.d
 
@@ -31,6 +36,14 @@
 *.out
 *.app
 
-# Python
-__pycache__
+# Don't track Python cache & virtual environments
+__pycache__/
 *.pyc
+env/
+venv/
+
+# Ignore ROS2 build folders
+build/*
+install/*
+log/*
+*.log
