@@ -10,8 +10,8 @@
     <!-- "teleop_twist_joy" node translates "/joy" topics to "/cmd_vel" -->
     <node pkg="teleop_twist_joy" exec="teleop_node">
         <param name="scale_linear.x" value="0.002"/>
-        <param name="scale_linear.y" value="-0.002"/>
-        <param name="scale_angular.yaw" value="-0.01"/>
+        <param name="scale_linear.y" value="0.002"/>
+        <param name="scale_angular.yaw" value="0.01"/>
 
         <!-- Mapping for a Switch Pro Controller with joycond (Linux) -->
         <param name="enable_button" value="8"/> <!-- Right Trigger -->
