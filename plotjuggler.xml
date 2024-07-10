@@ -8,18 +8,18 @@
       <plot flip_x="false" flip_y="false" style="Lines" mode="TimeSeries">
        <range bottom="0.000000" right="51.164870" top="20529.993103" left="41.312443"/>
        <limitY min="0"/>
-       <curve color="#1f77b4" name="rssi/1"/>
-       <curve color="#d62728" name="rssi/2"/>
-       <curve color="#1ac938" name="rssi/3"/>
+       <curve color="#d62728" name="rssi/1"/>
+       <curve color="#1ac938" name="rssi/2"/>
+       <curve color="#1f77b4" name="rssi/3"/>
       </plot>
      </DockArea>
      <DockArea name="Winkel">
       <plot flip_x="false" flip_y="false" style="Lines" mode="TimeSeries">
        <range bottom="0.000000" right="51.164870" top="360.000000" left="41.312443"/>
        <limitY max="360" min="0"/>
-       <curve color="#1f77b4" name="angle/1"/>
-       <curve color="#d62728" name="angle/2"/>
-       <curve color="#1ac938" name="angle/3"/>
+       <curve color="#d62728" name="angle/1"/>
+       <curve color="#1ac938" name="angle/2"/>
+       <curve color="#1f77b4" name="angle/3"/>
       </plot>
      </DockArea>
     </DockSplitter>
